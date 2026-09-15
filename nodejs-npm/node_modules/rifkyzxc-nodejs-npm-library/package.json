@@ -1,0 +1,16 @@
+{
+  "name": "rifkyzxc-nodejs-npm-library",
+  "version": "1.1.0",
+  "description": "Node JS NPM Library",
+  "license": "ISC",
+  "author": "Muhammad Rifky Ramadani",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./number": "./number.js"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-npm",
+  "version": "1.0.0",
+  "description": "Node Js NPM",
+  "keywords": [
+    "nodejs",
+    "npm"
+  ],
+  "license": "ISC",
+  "author": "Muhammad Rifky Ramadani",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./write": "./write.js"
+  },
+  "homepage": "https://www.sumatifummatanwahidah.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rifkiramadani/nodejs/tree/master/nodejs-todolist"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node index.js",
+    "prestart": "echo 'Before Application Start'",
+    "start": "node index.js",
+    "poststart": "echo 'After Application Start'"
+  },
+  "dependencies": {
+    "lodash": "^4.18.1",
+    "rifkyzxc-nodejs-npm-library": "^1.0.0"
+  },
+  "devDependencies": {
+    "moment": "^2.31.0"
+  }
+}
