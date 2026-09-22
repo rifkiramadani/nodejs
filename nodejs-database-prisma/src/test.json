@@ -1,0 +1,40 @@
+[
+  {
+    "id": "1",
+    "name": "Rifky",
+    "email": "rifky@gmail.com",
+    "phone": "0812345678",
+    "likes": [
+      {
+        "customer_id": "1",
+        "product_id": "P0001",
+        "product": {
+          "id": "P0001",
+          "name": "A",
+          "price": 1000,
+          "stock": 100,
+          "category": "K1"
+        }
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Ahmad Fadhila",
+    "email": "fadhil@gmail.com",
+    "phone": "089074392874",
+    "likes": [
+      {
+        "customer_id": "8",
+        "product_id": "P0001",
+        "product": {
+          "id": "P0001",
+          "name": "A",
+          "price": 1000,
+          "stock": 100,
+          "category": "K1"
+        }
+      }
+    ]
+  }
+]
