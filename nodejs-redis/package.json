@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-redis",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Muhammad Rifky Ramadani",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "@types/jest": "^30.0.0",
+    "babel-jest": "^30.5.2",
+    "jest": "^30.5.2"
+  },
+  "dependencies": {
+    "ioredis": "^6.0.0"
+  }
+}
